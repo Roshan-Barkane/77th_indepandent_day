@@ -33,6 +33,7 @@ class _secondState extends State<second> {
                     'Colunm Widget 1',
                     style: TextStyle(fontSize: 30.0),
                   )),
+              const Padding(padding: EdgeInsets.all(10)),
               Container(
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
@@ -44,6 +45,7 @@ class _secondState extends State<second> {
                     'Colunm Widget 2',
                     style: TextStyle(fontSize: 30.0, color: Colors.white),
                   )),
+              const Padding(padding: EdgeInsets.all(10)),
               Container(
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
@@ -55,6 +57,7 @@ class _secondState extends State<second> {
                     'Colunm Widget 3',
                     style: TextStyle(fontSize: 30.0),
                   )),
+              const Padding(padding: EdgeInsets.all(10)),
               Container(
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
@@ -66,6 +69,7 @@ class _secondState extends State<second> {
                     'Colunm Widget 4',
                     style: TextStyle(fontSize: 30.0, color: Colors.white),
                   )),
+              const Padding(padding: EdgeInsets.all(10)),
               Container(
                   padding: const EdgeInsets.all(20),
                   decoration: const BoxDecoration(
