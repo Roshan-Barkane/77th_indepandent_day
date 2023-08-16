@@ -22,14 +22,15 @@ class _secondState extends State<second> {
       ),
       body: Center(
         child: Container(
+          width: 300,
+          height: 300,
+          padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 50),
+          decoration: const BoxDecoration(
+              color: Colors.orange, boxShadow: [BoxShadow(blurRadius: 20.0)]),
           child: const Text(
             'Container Weights',
-            style: TextStyle(fontSize: 30, color: Colors.white),
+            style: TextStyle(fontSize: 30, color: Colors.black),
           ),
-          color: Colors.orange,
-          height: 400,
-          width: 395,
-          alignment: Alignment.bottomCenter,
         ),
       ),
     );
