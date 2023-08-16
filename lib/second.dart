@@ -24,8 +24,12 @@ class _secondState extends State<second> {
         child: Container(
           child: const Text(
             'Container Weights',
-            style: TextStyle(fontSize: 30, color: Colors.blue),
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
+          color: Colors.orange,
+          height: 400,
+          width: 395,
+          alignment: Alignment.bottomCenter,
         ),
       ),
     );
